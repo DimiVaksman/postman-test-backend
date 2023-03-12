@@ -46,31 +46,13 @@
       "id": 8
     },
     {
-      "tittle": "Test-JS",
+      "tittle": "new Test-JS",
       "autor": "test-JS",
       "genres": [
         "test-JS"
       ],
       "ratting": 10,
       "id": 18
-    },
-    {
-      "tittle": "all about JS",
-      "autor": "Author:JS",
-      "genres": [
-        "coding"
-      ],
-      "ratting": 10,
-      "id": 100
-    },
-    {
-      "tittle": "all about CSS",
-      "autor": "Author:CSS",
-      "genres": [
-        "coding"
-      ],
-      "ratting": 9,
-      "id": 101
     }
   ]
 }

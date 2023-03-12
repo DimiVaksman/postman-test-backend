@@ -75,3 +75,35 @@ const options = {
 // ------------------------------------------ U - PATCH
 
 
+
+function updateBookById(update, bookId){
+    const patchOptions = {
+        method: 'PATCH',
+        headers: {
+        'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(update)
+            }
+ return fetch(`${BASE_URL}/books/${bookId}` , patchOptions)
+ .then(res => res.json())
+}
+
+// updateBookById({tittle: "all about CSS and HTML and JS"}, 101)
+
+
+
+
+
+// ------------------------------------------ D - DELETE
+
+
+    function deletBook(bookId){
+        const url = `${BASE_URL}/books/${bookId}`
+
+        const deleteOptions = {
+        method: 'DELETE',
+        };
+
+        return fetch(url, deleteOptions).then(res => res.json());
+    }
+// deletBook();
