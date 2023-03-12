@@ -1,0 +1,76 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "tittle": " 1984",
+      "autor": "George Orwell ",
+      "genres": [
+        "Utopie"
+      ],
+      "ratting": 8.38
+    },
+    {
+      "id": 2,
+      "tittle": "Faust",
+      "autor": "Johann Wolfgang von Goeth",
+      "genres": [
+        "Tragödie"
+      ],
+      "ratting": 8.28
+    },
+    {
+      "id": 3,
+      "tittle": "Schneewittchen und die sieben zwerge",
+      "autor": "Brüder Grimm",
+      "genres": [
+        "Märchen"
+      ],
+      "ratting": 8.18
+    },
+    {
+      "id": 4,
+      "tittle": "Paddington Bear",
+      "autor": "Michael Bond",
+      "genres": [
+        "Fiction"
+      ],
+      "ratting": 8.38
+    },
+    {
+      "tittle": "Test-Book",
+      "autor": "test-Author",
+      "genres": [
+        "test-genres"
+      ],
+      "ratting": 10,
+      "id": 8
+    },
+    {
+      "tittle": "Test-JS",
+      "autor": "test-JS",
+      "genres": [
+        "test-JS"
+      ],
+      "ratting": 10,
+      "id": 18
+    },
+    {
+      "tittle": "all about JS",
+      "autor": "Author:JS",
+      "genres": [
+        "coding"
+      ],
+      "ratting": 10,
+      "id": 100
+    },
+    {
+      "tittle": "all about CSS",
+      "autor": "Author:CSS",
+      "genres": [
+        "coding"
+      ],
+      "ratting": 9,
+      "id": 101
+    }
+  ]
+}
